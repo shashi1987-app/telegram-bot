@@ -1,0 +1,8 @@
+services:
+  - type: worker
+    name: telegram-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    region: singapore
+    plan: free
